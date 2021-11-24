@@ -4,6 +4,6 @@ var A = 1;
 var B = 5;
 
 
-for (let i = 1; i <= B; i++, i + i) {
-    console.log(i)
+for (let i = 1; i <= B; A = (i + i++)) {
+    console.log(i, A)
 }
