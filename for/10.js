@@ -1,10 +1,11 @@
-/* A three-digit integer is given. 
-Output its last digit (a ones digit) and then its middle digit (a tens digit). */
+/* Given an integer N (> 0), find the value of a following sum (as a real number):
+    1 + 1/2 + 1/3 + … + 1/N. */
 
-var A = 123;
+var sum = 0;
+var N = 4;
 
-for (let i = 123; i <= A; i++, i = (A + 10) - A) {
-    console.log(i)
+for (i = 1; i < N; i++){
+sum+= (1 + 1/i);
 }
 
-//nustiu
+console.log(sum)
