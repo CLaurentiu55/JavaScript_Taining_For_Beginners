@@ -3,7 +3,7 @@
 
 AN = A·A· … ·A. */
 
-var A = 2;
+var A = 5;
 var N = 3;
 
 for (let i = 0; i < A; i++){

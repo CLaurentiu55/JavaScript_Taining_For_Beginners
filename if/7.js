@@ -2,13 +2,13 @@
 
 function realNumbers(x, y) {
     if(x > y) {
-        return x && y;
+        return [y, x];
     } else {
-        return y && x;   
+        return [x, y];  
     }
 }
 
 var x = 2;
-var y = 5;
+var y = 8;
 var result = realNumbers(x, y)
 console.log(result)
