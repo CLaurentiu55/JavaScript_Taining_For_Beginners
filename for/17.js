@@ -2,8 +2,8 @@
 
 1 + A + A2 + A3 + … + AN. */
 
-var A = 2;
-var N = 3;
+var A = 4;
+var N = 1;
 var sum = 0;
 
 for (let i = 0; i < A; i++){
